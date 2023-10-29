@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "SpotifyToYTMusic",
+    "version":"1.0",
+    "description":"Spotify links redirected to Youtube Music",
+    "content_scripts": [
+        {
+            "matches": ["*://open.spotify.com/track/*"],
+            "js": ["app.js"]
+        }
+    ]
+
+}
